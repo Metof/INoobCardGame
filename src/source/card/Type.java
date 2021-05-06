@@ -3,8 +3,8 @@ package source.card;
 import java.awt.*;
 
 public enum Type {
-    White(Color.WHITE, Color.BLACK),
-    Black(Color.BLACK, Color.WHITE);
+    Action(Color.WHITE, Color.BLACK),
+    Character(Color.BLACK, Color.WHITE);
 
     public Color color;
     public Color textColor;

@@ -1,5 +1,6 @@
 package source.card;
 
+
 import javax.swing.*;
 
 public class CardPanel extends JPanel {
@@ -15,6 +16,6 @@ public class CardPanel extends JPanel {
     }
 
     public void serBackgroundColor(){
-        this.setBackground(c.getType().color);
+        super.setBackground(c.getType().color);
     }
 }

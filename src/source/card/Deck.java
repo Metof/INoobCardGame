@@ -7,7 +7,7 @@ public abstract class Deck {
     private String name;
     private LinkedList<Card> deck;
 
-    public Deck(String name, Type type){
+    public Deck(Type type, String name){
         this.name = name;
         this.type = type;
     }
